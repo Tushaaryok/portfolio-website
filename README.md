@@ -805,8 +805,9 @@ p { color: var(--text-gray); }
         <p class="copyright"> Designed inspired by Tushaaryok</p>
     </footer>
 
+
     <!-- <script src="index.js"></script> -->
-    <style>
+   <script>
     document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('.nav-link');
     
@@ -851,7 +852,7 @@ p { color: var(--text-gray); }
     sections.forEach(section => {
         observer.observe(section);
     });
-});</style>
+});</script>
 </body>
 
 </html>
